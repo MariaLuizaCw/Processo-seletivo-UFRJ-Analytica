@@ -7,7 +7,7 @@
 """
 
 
-def posicaoDoCavalo(valor):
+def troco(valor):
     #Opções de notas e moedas listadas em ordem decrescente
     opcoes_notas = [100, 50, 20, 10, 5, 2]
     opcoes_moedas = [1, 0.50, 0.25, 0.10, 0.05, 0.01]
@@ -30,4 +30,4 @@ def posicaoDoCavalo(valor):
 
 
 valor = float(input())
-posicaoDoCavalo(valor)
+troco(valor)
